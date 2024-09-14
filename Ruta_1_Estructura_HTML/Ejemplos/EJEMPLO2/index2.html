@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+  </head>
+  <body>
+    <p>Lista Desordenado</p>
+    <ul>
+      <li>Lunes</li>
+      <li>Martes</li>
+      <li>Miércoles</li>
+    </ul>
+
+    <p>Lista Ordenada</p>
+    <ol>
+      <li>Enero</li>
+      <li>Febrero</li>
+      <li>Marzo</li>
+    </ol>
+
+    <br />
+
+    <h3>Lista Desordenado Dependientes</h3>
+    <ul>
+      <li>Lunes</li>
+      <ul>
+        <li>Mañana</li>
+        <li>Tarde</li>
+        <ul>
+          <li>14 hs</li>
+          <li>16 hs</li>
+          <li>18 hs</li>
+        </ul>
+        <li>Noche</li>
+      </ul>
+      <li>Martes</li>
+      <ul>
+        <li>Mañana</li>
+        <li>Tarde</li>
+        <li>Noche</li>
+      </ul>
+      <li>Miércoles</li>
+      <ul>
+        <li>Mañana</li>
+        <li>Tarde</li>
+        <li>Noche</li>
+      </ul>
+    </ul>
+
+    <br />
+
+    <h3>Lista de Definición</h3>
+    <p><b>Aliemtos Lácteos</b></p>
+    <dl>
+      <dt>Leche</dt>
+      <dt>Descreamda</dt>
+      <dt>Entera</dt>
+      <dt>Queso</dt>
+      <dt>Fontina</dt>
+      <dt>Mozzarella</dt>
+    </dl>
+
+    <br />
+    <hr />
+    <h2>Enlaces</h2>
+    <p><b>Enlace de Correo Electronico</b></p>
+    <a href="mailto:sopekof@gmail.com">Enviar un Correo</a>
+    <p>Agregar asunto</p>
+    <a href="mailto:sopekof@gmail.com?subject=Contacto">Enviar correo</a>
+    <p>
+      Los Enlaces también permiten vincular nuestro documento HTML con archivos:
+    </p>
+    <a href="Archivos/pizzas.pdf">Abrir PDF - PIZZAS</a>
+    <a href="Archivos/pizzas.pdf" download>Descargar PDF - PIZZAS</a>
+    <br />
+    <a href="Archivos/documento.txt">Un cuento corto en texto</a>
+    <a href="Archivos/documento.txt" download>Descargar cuento en archivo</a>
+
+    <br />
+    <hr />
+    <h2>Rutas Absolutas y Relativas</h2>
+    <p>Ruta Absolutas: Dominio (Externo)</p>
+    <a href="http://www.manualweb.net/img/logos/html.png">Imagen gloabl HTML</a>
+    <p>Relativa: Directorio Local</p>
+    <a href="Imagenes/gamers.png">Imagen Gamers</a>
+
+    <br />
+    <hr />
+    <h2>Multimedia con HTML</h2>
+    <p><b>Imagen, video, audio, iframe.</b></p>
+    <img src="https://picsum.photos/200" alt="Imagen de Piscun" />
+    <p>Logos</p>
+    <img src="Imagenes/logo.gif" width="200" height="300" />
+    <link rel="icon" href="Icons/icono.ico" />
+
+    <br />
+
+    <p><b>Audio con HTML</b></p>
+    <audio controls>
+      <source src="Audio/horse.mp3" type="audio/mpeg" />
+      <source src="Audio/horse.ogv" type="audio/ogg" />
+      Tu navegador no es compatible con el audio de HTML
+    </audio>
+    <br />
+
+    <p><b>Video con HTML</b></p>
+    <video width="320" height="240" controls>
+      <source src="Video/free.mp4" type="video/mp4" />
+      <source src="Video/free.ogv" type="video/ogg" />
+      Tu navegador no es compatible con el video en HTML5
+    </video>
+
+    <br />
+    <h2>Iframe</h2>
+    <iframe src="https://es.wikipedia.org/wiki/HTML" width="500" height="600">
+      Infomración de HTML.
+    </iframe>
+
+    <br />
+    <br />
+
+    <a href="https://www.youtube.com/watch?v=skdoqGcScns" target="_blank"
+      >Ver video en YouTube</a
+    >
+
+    <br />
+    <br />
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.226308413694!2d-64.32292508458097!3d-23.137738684886533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x940ff5e664998a97%3A0xf8b5c418763ee8fe!2sSan%20Ramon%20de%20la%20Nueva%20Oran%2C%20Salta!5e0!3m2!1sen!2sar!4v1694515393850!5m2!1sen!2sar"
+      width="600"
+      height="450"
+      frameborder="0"
+      scrolling=""
+    >
+    </iframe>
+
+    <br />
+    <hr />
+    <br />
+    <h2>Tablas en HTML</h2>
+    <p><b>Tablas | Estrucura Básica</b></p>
+    <table border="1">
+      <tr>
+        <th>Día</th>
+        <th>Mes</th>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>Agosto</td>
+      </tr>
+      <tr>
+        <td>14</td>
+        <td>Septiembre</td>
+      </tr>
+    </table>
+
+    <br />
+    <h3>Tablas - Colspan y Rowspan</h3>
+
+    <table border="1">
+      <tr>
+        <td>item</td>
+        <td colspan="2">item doble</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Attr</td>
+        <td>item</td>
+        <td>item</td>
+      </tr>
+      <tr>
+        <td>item</td>
+        <td>item</td>
+      </tr>
+    </table>
+    <br />
+    <p><b>Tablas</b></p>
+    <table border="1">
+      <tr>
+        <td rowspan="3">Zona Sur</td>
+        <td>Avellaneda</td>
+        <td>Lanús</td>
+      </tr>
+      <tr>
+        <td colspan="2">Banfield</td>
+      </tr>
+      <tr>
+        <td>Quilmes</td>
+        <td>Berazategui</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Zona Oeste</td>
+        <td>Morón</td>
+        <td>Merlo</td>
+      </tr>
+      <tr>
+        <td>Moreno</td>
+        <td>Haedo</td>
+      </tr>
+    </table>
+  </body>
+</html>
