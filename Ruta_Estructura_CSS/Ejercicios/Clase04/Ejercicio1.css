@@ -1,0 +1,17 @@
+header h1 {
+  font-size: 32px;
+  color: #dc143c;
+  background-color: #ddd589;
+  border: 2px, solid, #000000;
+}
+
+footer p {
+  align-content: center;
+  background-color: #5f9ea0;
+  font-weight: bold;
+  font-size: 16px;
+  color: #f0fff0;
+  height: 10vh;
+  width: 50%;
+  border: 2px, solid, rgba(0, 0, 0, 0.5);
+}
