@@ -1,0 +1,50 @@
+* Clase 04
+
+https://www.eniun.com/que-es-css-cascading-style-sheets/
+
+https://desarrolloweb.com/articulos/185.php
+
+https://devcode.la/tutoriales/diferencias-class-id/
+
+
+* Clase 05 
+Para componer o generar la paletas de colores que utilizarán en su proyecto:
+
+https://coolors.co/
+
+https://htmlcolorcodes.com/es/
+
+https://colorhunt.co/palettes/popular
+
+Tipografías:
+
+https://fonts.google.com/
+
+
+Estilos CSS para Fondos:
+
+https://lenguajecss.com/css/imagenes-y-fondos/propiedad-background-image/
+
+_ Iconos
+https://www.flaticon.es/uicons/interface-icons
+
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+
+
+* Clase 06
+
+Flexbox:
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+https://jonmircha.com/flexbox
+
+https://codepen.io/enxaneta/full/adLPwv
+
+
+Juegos (para practicar Flexbox)
+
+https://flexboxfroggy.com/#es
+http://www.flexboxdefense.com/
+https://codingfantasy.com/games/flexboxadventure/play
+
