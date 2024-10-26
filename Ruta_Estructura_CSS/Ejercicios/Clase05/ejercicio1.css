@@ -39,6 +39,7 @@ header {
   display: flex;
   gap: 1rem;
   justify-content: end;
+  padding: 20px;
 }
 
 .listas1 a {
