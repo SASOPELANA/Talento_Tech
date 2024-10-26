@@ -1,0 +1,12 @@
+body {
+  font-family: "Rubik Wet Paint", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #883366;
+  font-size: 18px;
+}
+
+.nav-list {
+  list-style: none;
+  text-decoration: none;
+}
