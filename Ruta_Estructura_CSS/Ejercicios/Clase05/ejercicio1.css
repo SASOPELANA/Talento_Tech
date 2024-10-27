@@ -100,12 +100,29 @@ footer p {
   }
 
   .listas1 {
-    font-size: 14px;
+    font-size: 12px;
+    justify-content: center;
+    text-shadow: 1px 2px 5px rgba(255, 255, 255, 0.8);
+  }
+
+  .hdos {
+    display: flex;
+    padding: auto;
+    font-size: 25px;
     justify-content: center;
   }
 
-  .foo1 {
+  .parrafo1 {
+    font-size: 18px;
+    justify-content: center;
+  }
+
+  .foo1 p {
     display: flex;
     justify-content: center;
+    padding: 10px;
+    align-items: center;
+    width: 100%;
+    position: relative;
   }
 }

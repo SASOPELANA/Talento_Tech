@@ -1,0 +1,14 @@
+
+
+🔸 Etiquetas Semánticas:
+
+    Diccionario o glosario de etiquetas HTML5
+    https://brandominus.com/blog/creatividad/todas-etiquetas-html5/
+	
+    Etiquetas Semánticas ¿Qué son? ¿Cómo se usan?
+    https://desarrolloweb.com/articulos/etiquetas-semanticas-html5.html
+
+
+    Guía de uso de las etiquetas de titulo (H1-H6)
+    
+    https://rockcontent.com/es/blog/heading-tags/
