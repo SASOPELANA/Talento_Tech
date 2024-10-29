@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 30px;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.productos {
+  display: flex; /* Activar Flexbox */
+  flex-wrap: wrap; /* Permitir que los productos se envuelvan */
+  justify-content: space-between; /* Distribuir los productos con
+espacio entre ellos */
+  padding: 20px; /* Relleno interno */
+}
+
+.producto {
+  background-color: #2196f3; /* Fondo azul */
+  color: white; /* Color del texto */
+  padding: 20px; /* Relleno interno de cada producto */
+  margin: 10px; /* Margen externo de cada producto */
+  flex: 1 1 200px; /* Ajuste flexible: crece, encoge, tamaño
+base 200px */
+  box-sizing: border-box; /* Incluir relleno y borde en el tamaño
+total */
+}
+
+img {
+  width: 300px;
+  height: 200px;
+}
+
+.productos h2 {
+  display: flex;
+  justify-content: center;
+  color: #000000;
+  gap: 1rem;
+}
+
+.icon-cpu {
+  color: #cfcbca;
+}
+
+.icon-gpu {
+  color: #94f066;
+}
+
+.icon-ram {
+  color: #f1f134;
+}
+
+.icon-placa {
+  color: #181804;
+}
