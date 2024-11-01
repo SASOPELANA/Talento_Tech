@@ -19,3 +19,23 @@ Las Media Queries son una funcionalidad de CSS que permite aplicar estilos depen
 de las características del dispositivo, como el ancho o la orientación de la pantalla. Son
 clave para implementar un diseño responsivo, asegurando que tu sitio web se vea y
 funcione bien en todos los dispositivos, desde celulares hasta computadoras de escritorio.
+
+
+Explicación:
+● @media only screen and (max-width: 600px): aplica los estilos a pantallas con un
+ancho máximo de 600px (ideal para celulares).
+● @media only screen and (min-width: 768px): aplica los estilos a pantallas con un
+ancho mínimo de 768px (usualmente tablets y computadoras más pequeñas)
+
+
+Breakpoints comunes:
+
+● Hasta 600px: dispositivos móviles pequeños (celulares).
+
+● 600px - 768px: tablets en modo vertical.
+
+● 768px - 992px: tablets en modo horizontal y laptops pequeñas.
+
+● 992px - 1200px: laptops y monitores de escritorio estándar.
+
+● Más de 1200px: monitores grandes
