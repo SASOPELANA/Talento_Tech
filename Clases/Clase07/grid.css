@@ -1,0 +1,64 @@
+/* una columna n1r otra columna 2fr */
+/*
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* dos columnas de igual tamaño 
+  gap: 5px;
+  background-color: aquamarine;
+}
+*/
+
+/* gap = espacio entre los elementos  */
+
+/* cuadricula basica con columnas de tamaño
+  tres columnas de 100px 
+*/
+/*
+.grid-container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  gap: 10px;
+}
+
+/* Ejemplo 2: 
+  columnas flexibles
+  
+* */
+
+/*
+.grid-container {
+  display: grid;
+  gird-template-columns: 1fr 2fr 1fr;
+  gap: 10%;
+}*/
+
+/*-----------------------------------------------------*/
+/* Ejemplo 3: cuadricula mixta con columnas fijas y felxibles podemos
+  combinar columnas de tamaño fijo y flexibles en una cyadricula
+*/
+
+/*
+.grid-container {
+  display: grid;
+  gird-template-columns: 200px 1fr;
+  gap: 10px;
+}
+*/
+
+/*-------------------------------------------------------*/
+/*
+    Ejemplo: 4 cuadricula con multiples filas
+*/
+
+.grid-container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 10px;
+}
+
+.grid-item {
+  background-color: red;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
