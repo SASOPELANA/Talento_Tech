@@ -40,9 +40,31 @@ if (!isNaN(num1) && !isNaN(num2)) {
   alert("El primer numero es " + num1);
   alert("El segundo numero es " + num2);
   let suma = num1 + num2;
+  console.log(suma);
   alert(`La suma de ${num1} y ${num2} es: ${suma}`);
   let resta = num1 - num2;
   alert(`La resta de ${num1} y ${num2} es: ${resta}`);
+  console.log(resta);
 } else {
   alert("Alguno de los numeros ingresados no es un numero");
+}
+
+// Uso de parseFloat() y parseInt()
+let num3 = prompt("Ingrese un numero para la division: ");
+num3 = parseFloat(num3);
+
+let num4 = prompt("Ingrese el segundo número para la división: ");
+num4 = parseFloat(num4);
+
+if (!isNaN(num3) && !isNaN(num4)) {
+  if (num4 == 0) {
+    alert("No se puede dividir por cero");
+  }
+
+  let division = num3 / num4;
+  console.log(division);
+  alert(`La división de ${num3} por ${num4} es: ${division}`);
+} else {
+  alert("Alguno de los numeros ingresados no es un numero");
+  console.log("Alguns de los numeros ingresados no son numeros");
 }
