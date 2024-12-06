@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dom y Eventos en JavaScript</title>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- getELementById -->
+
+    <!-- 
+    <h1 id="titulo">Bienvenido a mi sitio</h1>
+
+    <script>
+      let elemento = document.getElementById("titulo");
+      console.log(elemento);
+      // Devuelve el elemento <h1 id="titulo">...</h1>
+
+      elemento.style.backgroundColor = "red";
+    </script>
+    -->
+
+    <!-- querySelectorAll() -->
+
+    <!-- 
+    <div id="" class="contanedor">
+      <p class="texto">Texto</p>
+      <p class="texto">Texto</p>
+    </div>
+
+    <script>
+      let parrafos = document.querySelectorAll(".contenedor .texto");
+      console.log(parrafos);
+      // Devuelve una NodeList con los dos <pclass="texto">...</p>
+      // Cambiamos el color de todos los párrafos seleccionados:
+      parrafos.forEach((parrafo) => {
+        parrafo.style.color = "blue";
+      });
+    </script>
+    -->
+
+    <!-- Creación dinámica de elementos HTML con createElement() -->
+
+    <!-- 
+    <ul id="lista">
+      <li>Elemento 1</li>
+      <li>Elemento 2</li>
+    </ul>
+    <script>
+      let nuevoElemento = document.createElement("li");
+      nuevoElemento.textContent = "Elemento 3";
+      document.getElementById("lista").appendChild(nuevoElemento);
+
+      let nuevoElemento2 = document.createElement("li");
+      nuevoElemento2.textContent = "Elemento 4";
+      document.getElementById("lista").appendChild(nuevoElemento2);
+
+      let nuevoElemento3 = document.createElement("li");
+      nuevoElemento3.textContent = "Elemento 5";
+      document.getElementById("lista").appendChild(nuevoElemento3);
+    </script>
+    -->
+
+    <!-- Cómo "escuchar" eventos en el DOM: addEventListener? -->
+
+    <!-- 
+    <button id="miBoton">Háce click!!!</button>
+    -->
+
+    <!-- Esto es mala practica  -->
+    <!--
+    <button onclick="alert('¡Hiciste clic!')">Hacé clic 2</button>
+    -->
+
+    <ul id="lista">
+      <li>Elemento 1</li>
+      <li>Elemento 2</li>
+      <li>Elemento 3</li>
+    </ul>
+
+    <!-- script JavaScript -->
+    <script src="./codigo.js"></script>
+  </body>
+</html>
